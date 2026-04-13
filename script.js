@@ -21,101 +21,13 @@
 const sounds = [
   // ── Example 1 ──────────────────────────────────────────────
   {
-    name:  "Air Horn",
+    name:  "HO EENS EVEN",
     // Replace with your own audio file path or URL:
-    audio: "sounds/airhorn.mp3",
+    audio: "sounds/HOEENSEVEN.mp3",
     // Replace with your own image URL or local path:
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Airhorn_tpvgames.svg/240px-Airhorn_tpvgames.svg.png",
+    image: "https://stevivor.com/wp-content/uploads/2019/04/ace-attorney-6.webp",
     color: "#e94560"
   },
-
-  // ── Example 2 ──────────────────────────────────────────────
-  {
-    name:  "Applause",
-    audio: "sounds/applause.mp3",
-    emoji: "👏",
-    color: "#f7b731"
-  },
-
-  // ── Example 3 ──────────────────────────────────────────────
-  {
-    name:  "Bruh",
-    audio: "sounds/bruh.mp3",
-    emoji: "😐",
-    color: "#a29bfe"
-  },
-
-  // ── Example 4 ──────────────────────────────────────────────
-  {
-    name:  "Fail",
-    audio: "sounds/fail.mp3",
-    emoji: "😂",
-    color: "#fd9644"
-  },
-
-  // ── Example 5 ──────────────────────────────────────────────
-  {
-    name:  "GTA Wasted",
-    audio: "sounds/wasted.mp3",
-    emoji: "💀",
-    color: "#eb3b5a"
-  },
-
-  // ── Example 6 ──────────────────────────────────────────────
-  {
-    name:  "Sad Trombone",
-    audio: "sounds/sadtrombone.mp3",
-    emoji: "🎺",
-    color: "#45aaf2"
-  },
-
-  // ── Example 7 ──────────────────────────────────────────────
-  {
-    name:  "MLG Hit",
-    audio: "sounds/mlghit.mp3",
-    emoji: "🎯",
-    color: "#26de81"
-  },
-
-  // ── Example 8 ──────────────────────────────────────────────
-  {
-    name:  "Oof",
-    audio: "sounds/oof.mp3",
-    emoji: "😬",
-    color: "#fd79a8"
-  },
-
-  // ── Example 9 ──────────────────────────────────────────────
-  {
-    name:  "Vine Boom",
-    audio: "sounds/vineboom.mp3",
-    emoji: "💥",
-    color: "#ff6b6b"
-  },
-
-  // ── Example 10 ─────────────────────────────────────────────
-  {
-    name:  "Windows XP",
-    audio: "sounds/windowsxp.mp3",
-    emoji: "🖥️",
-    color: "#74b9ff"
-  },
-
-  // ── Example 11 ─────────────────────────────────────────────
-  {
-    name:  "Minecraft Hurt",
-    audio: "sounds/mchurt.mp3",
-    emoji: "⚔️",
-    color: "#badc58"
-  },
-
-  // ── Example 12 ─────────────────────────────────────────────
-  {
-    name:  "Crickets",
-    audio: "sounds/crickets.mp3",
-    emoji: "🦗",
-    color: "#55efc4"
-  }
 ];
 
 /* ============================================================
