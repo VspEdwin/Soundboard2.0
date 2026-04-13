@@ -23,7 +23,7 @@ const sounds = [
   {
     name:  "HO EENS EVEN",
     // Replace with your own audio file path or URL:
-    audio: "sounds/HOEENSEVEN.mp3",
+    audio: "sounds/hoeenseven.mp3",
     // Replace with your own image URL or local path:
     image: "https://stevivor.com/wp-content/uploads/2019/04/ace-attorney-6.webp",
     color: "#e94560"
