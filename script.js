@@ -42,6 +42,31 @@ const sounds = [
   let currentBtn   = null;
 
   /**
+   * Set grid-template-columns based on the number of sounds so that
+   * smaller boards show larger, more prominent buttons.
+   */
+  function updateGridLayout() {
+    const grid = document.getElementById("soundboard");
+    const count = sounds.length;
+    if (!grid || count === 0) return;
+
+    let cols;
+    if (count <= 3) {
+      // 1-3 sounds: one per column so they fill a single row and stay large
+      cols = count;
+    } else if (count < 10) {
+      // 4-9 sounds: roughly square grid (e.g. 4→2, 5-6→3, 7-9→3)
+      cols = Math.ceil(Math.sqrt(count));
+    } else {
+      // 10+ sounds: fluid auto-fill with a sensible minimum size
+      grid.style.gridTemplateColumns = "repeat(auto-fill, minmax(160px, 1fr))";
+      return;
+    }
+
+    grid.style.gridTemplateColumns = `repeat(${cols}, 1fr)`;
+  }
+
+  /**
    * Build the grid of buttons from the sounds array.
    */
   function buildBoard() {
@@ -79,6 +104,8 @@ const sounds = [
       btn.addEventListener("click", () => playSound(sound, btn));
       grid.appendChild(btn);
     });
+
+    updateGridLayout();
   }
 
   /**
